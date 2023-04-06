@@ -82,6 +82,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-list li:not(:last-child) {
   margin-right: 40px;
@@ -106,6 +110,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -156,6 +164,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-family: inherit;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -288,6 +300,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:hover,
 .team-soc-link:active {
@@ -319,6 +335,10 @@ body {
   height: 100%;
   border: 1px solid var(--customers-color);
   border-radius: 4px;
+
+  transition-property: border color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .custom-link:hover {
@@ -329,6 +349,10 @@ body {
 }
 .custom-icon {
   fill: var(--customers-color);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ----------------Main Portfolio------------- */
@@ -356,6 +380,11 @@ body {
   letter-spacing: 0.04em;
   background-color: var(--lightmode-color);
   font-family: inherit;
+
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms, 250ms, 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1),
+    cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-btn:hover,
 .filter-btn:active,
@@ -374,6 +403,10 @@ body {
   margin-right: 24px;
   margin-bottom: 48px;
   width: calc((100% - 48px) / 3);
+
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card:hover,
 .card:active {
@@ -457,6 +490,10 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: var(--primary-text-color);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-soc-link:hover,
 .footer-soc-link:active {
