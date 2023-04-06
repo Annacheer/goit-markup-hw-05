@@ -583,6 +583,9 @@ body {
   align-items: center;
   margin-left: auto;
 }
+.modal-close-btn:active {
+  background-color: var(--pressed-state-color);
+}
 .modal-close-icon {
   fill: var(--headings-color);
 }
